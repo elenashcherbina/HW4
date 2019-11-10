@@ -1,0 +1,83 @@
+@import url('vars.css');
+
+.wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    font-family: var(--primary-font-stack);
+}
+
+.header {
+    background-color: #fafafa;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 109px;
+}
+
+.logo {
+    margin-left: 100px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 2.15px
+}
+
+.logo,
+.nav-item,
+.user-form-item {
+    text-decoration: none;
+    color: var(--black-font-color);
+    text-transform: capitalize;
+    line-height: 17px;
+}
+
+.logo-yellow {
+    color: #e75a31
+}
+
+.logo-uppercase {
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item,
+.user-form-item{
+    display: block;
+    margin-right: 80px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.user-form{
+    display: flex;
+}
+
+.nav-item {
+    position: relative;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item:after {
+    visibility: hidden;
+    position: absolute;
+    content: " ";
+    left: 0;
+    top: 20px;
+    width: 19px;
+    visibility: hidden;
+    height: 2px;
+    background-color: #151f32;
+    
+}
+
+.nav-item:hover:after {
+    visibility: visible
+    
+}
