@@ -179,9 +179,12 @@
     color: #FCD3AC;
 }
 
+.arrow-left {
+    margin-right: 20px;
+}
 .arrow-right:hover, .arrow-left:hover{
     transition: 0.5s ease-in-out;
-    transform:scale(1.5);
+    transform:scale(1.25);
     filter: brightness(2);
 }
 
